@@ -1,6 +1,12 @@
 # Red Hat CVE Query Tool
 ## Setup
-Query details of CVE with effect Red Hat Enterprise Linux and OpenShift
+
+Query details of CVE with effect Red Hat Enterprise Linux and OpenShift by using REST API to retrieve data from
+
+| Data | URL                                                                 |
+|------|---------------------------------------------------------------------|
+| CVE  | https://access.redhat.com/hydra/rest/securitydata/cve/CVE _NUMBER   |
+| RHSA | https://access.redhat.com/hydra/rest/securitydata/csaf/RHSA _NUMBER |
 
 - Create Google sheet with column same as [example file](example/Red%20Hat%20CVEs.xlsx)
 - Create App Scripts provided in directory [code](code/)
